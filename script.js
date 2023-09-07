@@ -1,8 +1,8 @@
 function fibonacci(num) {
-  let n1 = 0, n2 = 1, n3;
+  if (num === 0) return 0;
+  if (num === 1) return 1;
 
-  if (num === 0) console.log(n1);
-  if (num === 1) console.log(n2);
+  let n1 = 0, n2 = 1, n3;
 
   for (let i = 2; i <= num; i++) {
     n3 = n1 + n2;
@@ -10,10 +10,10 @@ function fibonacci(num) {
     n2 = n3;
   }
 
-  console.log(n2);
+  return n2;
 }
 
-fibonacci(1); // 1
-fibonacci(5); // 5
+console.log(fibonacci(1)); // 0
+console.log(fibonacci(5)); // 3
 
 module.exports = fibonacci;
