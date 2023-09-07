@@ -13,7 +13,7 @@ function fibonacci(num) {
   return n3;
 }
 
-console.log(fibonacci(1)); // 1
-console.log(fibonacci(5)); // 5
+fibonacci(1); // 1
+fibonacci(5); // 5
 
 module.exports = fibonacci;
