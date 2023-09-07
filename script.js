@@ -10,5 +10,5 @@ function fibonacci(num) {
 		return n3;
 	}
 }
-fibonacci(5)
+
 module.exports = fibonacci;
