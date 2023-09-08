@@ -10,7 +10,7 @@ function fibonacci(num) {
     n2 = n3;
   }
 
-  return n2;
+  return n3;
 }
 
 console.log(fibonacci(1)); // 0
